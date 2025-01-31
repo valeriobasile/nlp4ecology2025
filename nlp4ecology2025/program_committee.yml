@@ -1,0 +1,58 @@
+- entries:
+  - first_name: Davide
+    institution: University of Turin, Italy  
+    last_name: Audrito
+  - first_name: Luca
+    institution: University of Pavia, Italy  
+    last_name: Brigada Villa 
+  - first_name: Tyler A. 
+    institution: University of California San Diego, USA
+    last_name: Chang
+  - first_name: Luigi
+    institution: University of Turin, Italy  
+    last_name: Di Caro 
+  - first_name: Steffen
+    institution: University of Potsdam, Germany  
+    last_name: Frenzel
+  - first_name: Sara
+    institution: University of Bergamo, Italy  
+    last_name: Gemelli
+  - first_name: Frederikus
+    institution: Nara Institute of Science and Technology, Japan
+    last_name: Hudi
+  - first_name: Stefano
+    institution: University of Turin, Italy  
+    last_name: Locci
+  - first_name: Stella
+    institution: Athena Research Center, Greece  
+    last_name: Markantonatou
+  - first_name: Lucia
+    institution: University of Pisa, Italy  
+    last_name: Passaro
+  - first_name: Ana
+    institution: Rey Juan Carlos University, Spain 
+    last_name: Reyes-Menendez
+  - first_name: Maximos
+    institution: University of Montpellier, France  
+    last_name: Skandalis
+  - first_name: Ivan
+    institution: University of Turin, Italy  
+    last_name: Spada
+  - first_name: Amanda
+    institution: Duke University, USA   
+    last_name: Starling Gould 
+  - first_name: Masashi
+    institution: Hokkaido University, Japan   
+    last_name: Takeshita
+  - first_name: Karolina
+    institution: University of Potsdam, Germany  
+    last_name: Zaczynska
+  - first_name: Fabio Massimo 
+    institution: University of Rome “Tor Vergata”, Italy
+    last_name: Zanzotto
+  role: Program Committee
+- entries:
+  - first_name: Tommaso
+    institution: University of Groningen, Netherlands
+    last_name: Caselli
+  role: Invited Speaker

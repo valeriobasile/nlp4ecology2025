@@ -1,0 +1,638 @@
+- abstract: Green practices are everyday activities that support a sustainable relationship
+    between people and the environment. Detecting these practices in social media
+    helps track their prevalence and develop recommendations to promote eco-friendly
+    actions. This study compares machine learning methods for identifying mentions
+    of green waste practices as a multi-label text classification task. We focus on
+    transformer-based models, which currently achieve state-of-the-art performance
+    across various text classification tasks. Along with encoder-only models, we evaluate
+    encoder-decoder and decoder-only architectures, including instruction-based large
+    language models. Experiments on the GreenRu dataset, which consists of Russian
+    social media texts, show the prevalence of the mBART encoder-decoder model. The
+    findings of this study contribute to the advancement of natural language processing
+    tools for ecological and environmental research, as well as the broader development
+    of multi-label text classification methods in other domains.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: a.v.glazkova@utmn.ru
+    first_name: Anna
+    google_scholar_id: https://scholar.google.com/citations?user=yg_ID84AAAAJ&hl=ru&oi=ao
+    institution: Tyumen State University
+    last_name: Glazkova
+    name: Anna Glazkova
+    orcid: https://orcid.org/0000-0001-8409-6457
+    semantic_scholar_id: https://www.semanticscholar.org/author/145248542
+    username: ~Anna_Glazkova1
+  - emails: o.v.zakharova@utmn.ru
+    first_name: Olga
+    google_scholar_id: https://scholar.google.com/citations?user=mjGgDKEAAAAJ&hl=ru
+    institution: Tyumen State University
+    last_name: Zakharova
+    name: Olga Zakharova
+    orcid: https://orcid.org/0000-0002-1404-4915
+    username: ~Olga_Zakharova1
+  decision: oral
+  file: 2.pdf
+  id: 2
+  openreview_id: UsfmSS1QGc
+  pdf_file: 3012650fbe9378372813db22d68dc6f8a8152dbf.pdf
+  title: 'From Data to Grassroots Initiatives: Leveraging Transformer-Based Models
+    for Detecting Green Practices in Social Media'
+- abstract: Rapid advances in natural language processing have led to the development
+    of large language models (LLMs), which are based on the Transformer architecture.
+    These models have grown significantly in size, and their increasing demand for
+    computational resources has raised concerns about their environmental impact.
+    The substantial carbon footprint and the water footprint during training and inference  contribute
+    to global warming, highlighting the need for more energy-efficient approaches.
+    Our study attempts to address these challenges by compressing the size of LLMs.
+    Our approach lies in reducing the dimensionality of the model parameter space
+    using a well-known dimensionality reduction technique such as Singular Value Decomposition
+    and Autoencoders. Specifically, we apply these dimension reduction techniques
+    to the large weight matrices of LLMs. We target these matrices as they contain
+    parameters, encoding knowledge learnt by the LLMs. Thus, we reduce the LLMs' size,
+    which should positively impact its size, speed, resource-consumption, and overall,
+    its carbon footprint. In this paper, we present our initial results on Llama-2
+    with 7 billion parameters.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: nlmakenne@uliege.be
+    first_name: Nelie
+    institution: University of Liège
+    last_name: Makenne
+    middle_name: Laura
+    name: Nelie Laura MAKENNE
+    username: ~Nelie_Laura_MAKENNE1
+  - dblp_id: https://dblp.org/pid/36/7726
+    emails: ashwin.ittoo@uliege.be
+    first_name: Ashwin
+    institution: University of Liege
+    last_name: Ittoo
+    name: Ashwin Ittoo
+    username: ~Ashwin_Ittoo1
+  decision: Researchcommunication
+  file: 4.pdf
+  id: 4
+  openreview_id: iabOEFTyf1
+  pdf_file: c84b78c9a075fa519a86db9ee915cb15973e8c0c.pdf
+  title: Towards Green Small Language Models
+- abstract: This paper explores how forests and forest industry are perceived on the
+    largest online discussion forum in Finland, Suomi24 ('Finland24'). Using 30,636
+    posts published in 2014–2020, we investigate what kind of topics and perspectives
+    towards forest management can be found. We use BERTopic as our topic modeling
+    approach and evaluate the results of its different modular combinations. As the
+    dataset is not labeled, we demonstrate the validity of our best model through
+    illustrating some of the topics about forest use. The results show that a combination
+    of UMAP and K-means leads to the best topic quality. Our exploratory qualitative
+    analysis indicates that the posts reflect polarized discourses between the forest
+    industry and forest conservation adherents.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: tejpeu@utu.fi
+    first_name: Telma
+    institution: University of Turku
+    last_name: Peura
+    name: Telma Peura
+    orcid: https://orcid.org/0000-0001-8896-8603
+    username: ~Telma_Peura1
+  - emails: atarkr@utu.fi
+    first_name: Attila
+    homepage: https://www.utu.fi/en/people/attila-krizsan
+    last_name: Krizsán
+    name: Attila Krizsán
+    username: ~Attila_Krizsán1
+  - emails: srkbos@utu.fi
+    first_name: srkbos@utu.fi
+    institution: NA
+    last_name: srkbos@utu.fi
+    name: srkbos@utu.fi
+    username: srkbos@utu.fi
+  - emails: veronika.laippala@utu.fi
+    first_name: Veronika
+    homepage: https://turkunlp.org/
+    institution: University of Turku
+    last_name: Laippala
+    name: Veronika Laippala
+    username: ~Veronika_Laippala1
+  decision: long
+  file: 5.pdf
+  id: 5
+  openreview_id: RUkY5tMANH
+  pdf_file: 4ae139d151134a29a8620fb2120c20c6b1333404.pdf
+  title: Perspectives on Forests and Forestry in Finnish Online Discussions - A Topic
+    Modeling Approach to Suomi24
+- abstract: This study explores the use of large language models (LLMs), specifically
+    GPT-4o, to extract key ecological entities—species, locations, habitats, and ecosystems—from
+    invasion biology literature. This information is critical for understanding species
+    spread, predicting future invasions, and informing conservation efforts. Without
+    domain-specific fine-tuning, we assess the potential and limitations of GPT-4o,
+    out-of-the-box, for this task, highlighting the role of LLMs in advancing automated
+    knowledge extraction for ecological research and management.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/121/1227
+    emails: jennifer.dsouza@tib.eu
+    first_name: Jennifer
+    institution: TIB Hannover
+    last_name: D'Souza
+    name: Jennifer D'Souza
+    orcid: https://orcid.org/0000-0002-6616-9509
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jennifer-D'Souza/73596405
+    username: ~Jennifer_D'Souza1
+  - emails: zachary.laubach@colorado.edu
+    first_name: zachary.laubach@colorado.edu
+    institution: NA
+    last_name: zachary.laubach@colorado.edu
+    name: zachary.laubach@colorado.edu
+    username: zachary.laubach@colorado.edu
+  - emails: tarek.almustafa@uni-jena.de
+    first_name: Tarek
+    institution: Friedrich-Schiller Universität Jena
+    last_name: Mustafa
+    middle_name: Al
+    name: Tarek Al Mustafa
+    orcid: https://orcid.org/0000-0001-7793-4483
+    username: ~Tarek_Al_Mustafa1
+  - dblp_id: https://dblp.org/pid/49/8155
+    emails: sina.zarriess@uni-bielefeld.de
+    first_name: Sina
+    google_scholar_id: https://scholar.google.de/citations?user=7OOP0iAAAAAJ&hl=de&oi=ao
+    homepage: https://sinazarriess.github.io/
+    institution: Bielefeld University
+    last_name: Zarrieß
+    name: Sina Zarrieß
+    orcid: https://orcid.org/0000-0002-1384-1218
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sina-Zarrie%C3%9F/1721364
+    username: ~Sina_Zarrieß1
+  - emails: robert.fruehstueckl@uni-bielefeld.de
+    first_name: robert.fruehstueckl@uni-bielefeld.de
+    institution: NA
+    last_name: robert.fruehstueckl@uni-bielefeld.de
+    name: robert.fruehstueckl@uni-bielefeld.de
+    username: robert.fruehstueckl@uni-bielefeld.de
+  - emails: phyllis.illari@ucl.ac.uk
+    first_name: phyllis.illari@ucl.ac.uk
+    institution: NA
+    last_name: phyllis.illari@ucl.ac.uk
+    name: phyllis.illari@ucl.ac.uk
+    username: phyllis.illari@ucl.ac.uk
+  decision: short
+  file: 6.pdf
+  id: 6
+  openreview_id: YPv1v8Teda
+  pdf_file: b7008edd06ceda99159774f8c055aaf84149af39.pdf
+  title: 'Mining for Species, Locations, Habitats, and Ecosystems from Scientific
+    Papers in Invasion Biology: A Large-Scale Exploratory Study with Large Language
+    Models'
+- abstract: This paper examines whether few-shot techniques for Named Entity Recognition
+    (NER) utilising existing large language models (LLMs) as their backbone can be
+    used to reliably annotate named entities (NEs) in scientific texts on climate
+    change and biodiversity. A series of experiments aim to assess whether LLMs can
+    be integrated into an end-to-end pipeline that could generate token- or sentence-level
+    NE annotations; the former being an ideal-case scenario that allows for seamless
+    integration of existing with new token-level features in a single annotation pipeline.
+    Experiments are run on four LLMs, two NER datasets, two input and output data
+    formats, and ten and nine prompt versions per dataset. The results show that few-shot
+    methods are far from being a silver bullet for NER in highly specialised domains,
+    although improvement in LLM performance is observed for some prompt designs and
+    some NE classes. Few-shot methods would find better use in a human-in-the-loop
+    scenario, where an LLM's output is verified by a domain expert.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: elena.volkanovska@tu-darmstadt.de
+    first_name: Elena
+    institution: Technische Universität Darmstadt
+    last_name: Volkanovska
+    name: Elena Volkanovska
+    username: ~Elena_Volkanovska1
+  decision: long
+  file: 7.pdf
+  id: 7
+  openreview_id: c0PYZjCBle
+  pdf_file: 420835e884cec9b07c4ef951bfa2ea8c8dc0b5c0.pdf
+  title: 'Large Language Models as Annotators of Named Entities in Climate Change
+    and Biodiversity: A Preliminary Study'
+- abstract: 'Contemporary environmental discourse focuses on effectively communicating
+    ecological vulnerability to raise public awareness and encourage positive actions.
+    Hence there is a need for studies to support accurate and adequate discourse production,
+    both by humans and computers. Two main challenges need to be tackled. On the one
+    hand, the language used to communicate about environment issues can be very complex
+    for human and automatic analysis, there being few resources to train and test
+    NLP tools. On the other hand, in the
+
+    current international scenario, most texts are written in multiple languages or
+    translated from a major to minor language, resulting in different meanings in
+    different languages and cultural contexts.
+
+    This paper presents a novel parallel corpus comprising the text of World Wide
+    Fund (WWF) 2024 Annual Report in English and its translations into Italian and
+    Brazilian Portuguese, and analyses their linguistic features.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/27/3697
+    emails: bosco@di.unito.it
+    first_name: Cristina
+    institution: University of Turin
+    last_name: Bosco
+    name: Cristina Bosco
+    orcid: https://orcid.org/0000-0002-8857-4484
+    username: ~Cristina_Bosco1
+  - emails: apagano@ufmg.br
+    first_name: Adriana
+    google_scholar_id: https://scholar.google.com/citations?user=iMOX_EQAAAAJ&hl=pt-BR
+    institution: Universidade Federal de Minas Gerais, Universidade Federal de Minas
+      Gerais
+    last_name: Pagano
+    middle_name: Silvina
+    name: Adriana Silvina Pagano
+    orcid: https://orcid.org/0000-0002-3150-3503
+    username: ~Adriana_Silvina_Pagano1
+  - emails: elisa.chierchiell@edu.unito.it
+    first_name: Elisa
+    last_name: Chierchiello
+    name: Elisa Chierchiello
+    username: ~Elisa_Chierchiello1
+  decision: long
+  file: 9.pdf
+  id: 9
+  openreview_id: ErwcNMJsOJ
+  pdf_file: 2c9baa4db9bcbf000fe58cade7c405c81bc415b8.pdf
+  title: 'Communicating urgency to prevent environmental damage: insights from a linguistic
+    analysis of the WWF24 multilingual corpus'
+- abstract: 'Costa Rica is one of the largest producers and exporters of pineapple
+    in the world. This status has encouraged multinational companies to use plantations
+    in this Central American country for experimentation and the cultivation of new
+    varieties, such as the Pinkglow pineapple. However, pineapple monoculture has
+    significant socio-environmental impacts on the regions where it is cultivated.In
+    this exploratory study, we aimed to analyze how pineapple production is portrayed
+    on the Internet. To achieve this, we collected a corpus of texts in Spanish and
+    English from online sources in two phases: using the BootCat tool and manual search
+    on newspaper websites. The Hierarchical Dirichlet Process (HDP) topic model was
+    then applied to identify dominant topics within the corpus. These topics were
+    subsequently classified into thematic categories, and the texts were categorized
+    accordingly. The findings indicate that environmental issues related to pineapple
+    cultivation are underrepresented on the Internet, particularly in comparison to
+    the extensive focus on topics related to pineapple production and marketing.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: tretti@uni-potsdam.de
+    first_name: Valentina
+    last_name: Beckles
+    middle_name: Tretti
+    name: Valentina Tretti Beckles
+    username: ~Valentina_Tretti_Beckles1
+  - emails: adrian.vergara@ucr.ac.cr
+    first_name: Adrian
+    homepage: https://filologia.ucr.ac.cr/personal/profesorado/adrian-vergara-heidke/
+    institution: Universidad de Costa Rica
+    last_name: Heidke
+    middle_name: Vergara
+    name: Adrian Vergara Heidke
+    orcid: https://orcid.org/0000-0001-9487-7089
+    username: ~Adrian_Vergara_Heidke1
+  decision: long
+  file: 11.pdf
+  id: 11
+  openreview_id: r9tsFbTD0K
+  pdf_file: ee80d23ec184906eb11442b1136ade324ce8da90.pdf
+  title: 'Thematic Categorization on Pineapple Production in Costa Rica: An Exploratory
+    Analysis through Topic Modeling'
+- abstract: Growing concerns about climate change and sustainability are driving manufacturers
+    to take significant steps toward reducing their carbon footprints. For these manufacturers,
+    a first step towards this goal is to identify the environmental impact of the
+    individual components of their products. We propose a system leveraging large
+    language models (LLMs) to automatically map components from manufacturer Bills
+    of Materials (BOMs) to Life Cycle Assessment (LCA) database entries by using LLMs
+    to expand on available component information. Our approach reduces the need for
+    manual data processing, paving the way for more accessible sustainability practices.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: steffen.castle@dfki.de
+    first_name: Steffen
+    homepage: http://dfki.de
+    institution: University of Potsdam
+    last_name: Castle
+    name: Steffen Castle
+    username: ~Steffen_Castle1
+  - emails: jmschnei@gmail.com
+    first_name: Julian
+    google_scholar_id: https://scholar.google.com/citations?hl=es&user=qqNWbrUAAAAJ
+    last_name: Moreno Schneider
+    name: Julian Moreno Schneider
+    username: ~Julian_Moreno_Schneider2
+  decision: short
+  file: 12.pdf
+  id: 12
+  openreview_id: x5WrvJx4hP
+  pdf_file: 0522a116b54e27564d0eeca25a17558b5f40f6be.pdf
+  title: Entity Linking using LLMs for Automated Product Carbon Footprint Estimation
+- abstract: "In this paper, we evaluate methods to determine biodiversity via quantity\
+    \ estimation from historical survey text. To that end, we formulate classification\
+    \ tasks and finally show that this problem can be successfully framed as regression\
+    \ based on best-worst-scaling with LLMs. \n  We find that this approach is more\
+    \ cost effective and similarly robust to a fine-grained multi-class approach,\
+    \ allowing automated quantity estimation across species."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: thomas.haider@uni-passau.de
+    first_name: Thomas
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=kW5idhAAAAAJ
+    last_name: Haider
+    name: Thomas Haider
+    username: ~Thomas_Haider2
+  - emails: tobias.perschl@uni-passau.de
+    first_name: Tobias
+    institution: Universität Passau
+    last_name: Perschl
+    name: Tobias Perschl
+    orcid: https://orcid.org/0009-0008-7070-8705
+    username: ~Tobias_Perschl1
+  - emails: malte.rehbein@uni-passau.de
+    first_name: malte.rehbein@uni-passau.de
+    institution: NA
+    last_name: malte.rehbein@uni-passau.de
+    name: malte.rehbein@uni-passau.de
+    username: malte.rehbein@uni-passau.de
+  decision: long
+  file: 13.pdf
+  id: 13
+  openreview_id: Ja7rZGtTAF
+  pdf_file: f08440e36643b86e48de278c476c60e6d69fc508.pdf
+  title: Quantification of Biodiversity from Historical Survey Text with LLM-based
+    Best-Worst-Scaling
+- abstract: This project employs state-of-the-art Natural Language Processing (NLP)
+    techniques to analyze the online communication of international Environmental
+    Movement Organizations (EMOs). First, we introduce our overall EMO dataset and
+    describe it through topic modeling. Second, we evaluate current sentiment and
+    emotion classification models for our specific dataset. Third, as we are currently
+    in our annotation process, we evaluate our current progress and issues to determine
+    the most effective approach for creating a high-quality annotated dataset that
+    captures the nuances of EMO communication. Finally, we emphasize the need for
+    domain-specific datasets and tailored NLP tools and suggest refinements for our
+    annotation process moving forward.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: christina.barz@stud.h-da.de
+    first_name: Christina
+    last_name: Barz
+    name: Christina Barz
+    orcid: https://orcid.org/0009-0005-7309-0515
+    username: ~Christina_Barz1
+  - dblp_id: https://dblp.org/pid/84/2538
+    emails: melanie.siegel@h-da.de
+    first_name: Melanie
+    homepage: http://www.melaniesiegel.de
+    institution: Darmstadt University of Applied Sciences
+    last_name: Siegel
+    name: Melanie Siegel
+    orcid: https://orcid.org/0000-0002-5064-5750
+    semantic_scholar_id: https://www.semanticscholar.org/author/Melanie-Siegel/40449690
+    username: ~Melanie_Siegel1
+  - emails: daniel.hanss@h-da.de
+    first_name: daniel.hanss@h-da.de
+    institution: NA
+    last_name: daniel.hanss@h-da.de
+    name: daniel.hanss@h-da.de
+    username: daniel.hanss@h-da.de
+  decision: long
+  file: 15.pdf
+  id: 15
+  openreview_id: L9KvvuGIV5
+  pdf_file: d3e0f0468f4fd75d8c71bfae7834113b481da176.pdf
+  title: 'Analyzing the Online Communication of Environmental Movement Organizations:
+    NLP Approaches to Topics, Sentiment, and Emotions'
+- abstract: 'This paper investigates how different online communities perceive and
+    discuss the environmental impact of AI through sentiment analysis and emotion
+    detection. We analyze Reddit discussion from r/artificial and r/climatechange,
+    using pre-trained models fine-tuned on social media data. Our analysis reveals
+    distinct patterns in how these communities engage with AI''s environmental implications:
+    the AI community demonstrates a shift from predominantly neutral and positive
+    sentiment in posts to more balanced perspectives in comments, while the climate
+    community maintains a more critical stance throughout discussions. The findings
+    contribute to our understanding of how different communities conceptualize and
+    respond to the environmental challenges of AI development.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: arianna.longo401@edu.unito.it
+    first_name: Arianna
+    last_name: Longo
+    name: Arianna Longo
+    orcid: https://orcid.org/0009-0005-8500-1946
+    username: ~Arianna_Longo1
+  - emails: alessandrolongo1@protonmail.com
+    first_name: alessandrolongo1@protonmail.com
+    institution: NA
+    last_name: alessandrolongo1@protonmail.com
+    name: alessandrolongo1@protonmail.com
+    username: alessandrolongo1@protonmail.com
+  decision: short
+  file: 17.pdf
+  id: 17
+  openreview_id: JGQeao8S1Z
+  pdf_file: fd81280e2bcc3ad7437d01608ea3445f4461ebe5.pdf
+  title: 'No AI on a Dead Planet: Sentiment and Emotion Analysis Across Reddit Communities
+    on AI and the Environment'
+- abstract: The widespread use of Large Language Models (LLMs), particularly among
+    non-expert users, has raised ethical concerns about the propagation of harmful
+    biases. While much research has addressed social biases, few works, if any, have
+    examined anthropocentric bias in Natural Language Processing (NLP) technology.
+    Anthropocentric language prioritizes human value, framing non-human animals, living
+    entities, and natural elements solely by their utility to humans; a perspective
+    that contributes to the ecological crisis. In this paper, we evaluate anthropocentric
+    bias in OpenAI’s GPT-4o across various target entities, including sentient beings,
+    non-sentient entities, and natural elements. Using prompts eliciting neutral,
+    anthropocentric, and ecocentric perspectives, we analyze the model’s outputs and
+    introduce a manually curated glossary of 424 anthropocentric terms as a resource
+    for future ecocritical research. Our findings reveal a strong anthropocentric
+    bias in the model's responses, underscoring the need to address human-centered
+    language use in AI-generated text to promote ecological well-being.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: fr.grasso@unito.it
+    first_name: Francesca
+    homepage: https://www.cs.unito.it/do/docenti.pl/Show?_id=frangras#tab-profilo
+    last_name: Grasso
+    name: Francesca Grasso
+    username: ~Francesca_Grasso1
+  - emails: stefano.locci@unito.it
+    first_name: Stefano
+    google_scholar_id: https://scholar.google.com/citations?view_op=list_works&hl=it&user=JSD6bkoAAAAJ
+    institution: University of Turin
+    last_name: Locci
+    name: Stefano Locci
+    orcid: https://orcid.org/0009-0006-9725-2045
+    semantic_scholar_id: https://www.semanticscholar.org/author/Stefano-Locci/2275496236
+    username: ~Stefano_Locci1
+  - dblp_id: https://dblp.org/pid/12/5266
+    emails: luigi.dicaro@unito.it
+    first_name: Luigi
+    google_scholar_id: https://scholar.google.it/citations?user=XQAvqi4AAAAJ
+    homepage: https://www.unito.it/persone/luigi.dicaro
+    institution: University of Turin, Italy
+    last_name: Di Caro
+    name: Luigi Di Caro
+    orcid: https://orcid.org/0000-0002-7570-637X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Luigi-Di-Caro/49246337
+    username: ~Luigi_Di_Caro2
+  decision: Oral
+  file: 18.pdf
+  id: 18
+  openreview_id: hCUIyfYWZh
+  pdf_file: 252506c8001d6a51d4cbd48b4bacd78d07accc92.pdf
+  title: Towards Addressing Anthropocentric Bias in Large Language Models
+- abstract: 'The H4rmony Project addresses the urgent need to integrate ethical AI
+    principles with ecological awareness, bridging the gap between anthropocentric
+    ethics and ecocentric values. Large language models (LLMs) are central to generative
+    AI, forming the backbone of text generation and enabling multimodal systems that
+    integrate text with other media, such as images, and extend further into agentic
+    AI and robotics. Their pervasive influence underscores the importance of aligning
+    LLMs with an ecosophy—a philosophy of ecological harmony and sustainability. H4rmony
+    introduces the transformative fourth H: Harmony with nature, extending traditional
+    AI ethics (Honesty, Harmlessness, and Helpfulness) to embed ecological values.
+    Notably, this paper itself has been co-developed with Theophrastus, a H4rmony-enhanced
+    AI assistant designed to embody ecolinguistic principles, exemplifying the project’s
+    potential to generate tools that assimilate its vision. By integrating ecolinguistic
+    principles into Generative AI, the H4rmony Project aims to redefine AI’s role
+    in fostering sustainability, ecological consciousness, and positive environmental
+    narratives. This paper presents the project’s strategic goals, methodologies,
+    and proof-of-concept implementations, showcasing its potential to reshape AI as
+    a tool for ecological advocacy.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: airesearch@neovalle.co.uk
+    first_name: Jorge
+    google_scholar_id: https://scholar.google.com/citations?user=oJnSEqoAAAAJ&hl=en&oi=ao
+    homepage: https://TheH4rmonyProject.org
+    institution: Neovalle Ltd
+    last_name: Vallego
+    name: Jorge Vallego
+    orcid: https://orcid.org/0009-0001-5109-9392
+    username: ~Jorge_Vallego1
+  - emails: u2403489@uel.ac.uk
+    first_name: Eleanor
+    homepage: https://linktr.ee/eleanortiernan
+    institution: University of East London
+    last_name: Tiernan
+    name: Eleanor Tiernan
+    username: ~Eleanor_Tiernan1
+  decision: Researchcommunication
+  file: 19.pdf
+  id: 19
+  openreview_id: 1p4G7Lyz8F
+  pdf_file: 54b3628c9a5248928417eda67230ba84666d0821.pdf
+  title: 'The H4rmony Project: An Ecolinguistics Approach for Generative AI'
+- abstract: This study explores strategies for efficiently classifying scientific
+    full texts using both small, BERT-based models and local large language models
+    like Llama-3.1 8B. We focus on developing methods for selecting subsets of input
+    sentences to reduce input size while simultaneously enhancing classification performance.
+    To this end, we compile a novel dataset consisting of full-text scientific papers
+    from the field of invasion biology, specifically addressing the impacts of invasive
+    species. These papers are aligned with publicly available impact assessments created
+    by researchers for the International Union for Conservation of Nature (IUCN).
+    Through extensive experimentation, we demonstrate that various sources like human
+    evidence annotations, LLM-generated annotations or explainability scores can be
+    used to train sentence selection models that improve the performance of both encoder-
+    and decoder-based language models while optimizing efficiency through the reduction
+    in input length, leading to improved results even if compared to models like ModernBERT
+    that are able to handle the complete text as input. Additionally, we find that
+    repeated sampling of shorter inputs proves to be a very effective strategy that,
+    at a slightly increased cost, can further improve classification performance.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - emails: marc@brinner.eu
+    first_name: Marc
+    institution: Universität Bielefeld
+    last_name: Brinner
+    middle_name: Felix
+    name: Marc Felix Brinner
+    username: ~Marc_Felix_Brinner1
+  - dblp_id: https://dblp.org/pid/49/8155
+    emails: sina.zarriess@uni-bielefeld.de
+    first_name: Sina
+    google_scholar_id: https://scholar.google.de/citations?user=7OOP0iAAAAAJ&hl=de&oi=ao
+    homepage: https://sinazarriess.github.io/
+    institution: Bielefeld University
+    last_name: Zarrieß
+    name: Sina Zarrieß
+    orcid: https://orcid.org/0000-0002-1384-1218
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sina-Zarrie%C3%9F/1721364
+    username: ~Sina_Zarrieß1
+  decision: long
+  file: 20.pdf
+  id: 20
+  openreview_id: Lc2lwuQcTz
+  pdf_file: 71b9cb0073bc819529523b5fe2d0d2fd70e2c26f.pdf
+  title: 'Efficient Scientific Full Text Classification: The Case of EICAT Impact
+    Assessments'
+- abstract: A common language with shared standard definitions is essential for effective
+    climate conversations. However, there is concern that LLMs may misrepresent and/or
+    diversify climate-related terms. We compare 305 official IPCC glossary definitions
+    with those generated by OpenAI's GPT-4o-mini and investigate their adherence,
+    robustness, and readability using a combination of SBERT sentence embeddings and
+    statistical measures. The LLM definitions received average adherence and robustness
+    scores of $0.58 \pm 0.15$ and $0.96 \pm 0.02$, respectively. Both sustainability-related
+    terminologies remain challenging to read, with model-generated definitions varying
+    mainly among words with multiple or ambiguous definitions. Thus, the results highlight
+    the potential of LLMs to support environmental discourse while emphasizing the
+    need to align model outputs with established terminology for clarity and consistency.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: ''
+  authors:
+  - dblp_id: https://dblp.org/pid/330/6875
+    emails: aheiman@stanford.edu
+    first_name: Alice
+    google_scholar_id: https://scholar.google.com/citations?user=jBICSK8AAAAJ
+    homepage: https://aliceheiman.xyz/
+    last_name: Heiman
+    name: Alice Heiman
+    orcid: https://orcid.org/0009-0005-2127-2456
+    username: ~Alice_Heiman1
+  decision: long
+  file: 21.pdf
+  id: 21
+  openreview_id: cwszpOZFld
+  pdf_file: 73389e617a68ec7b900f91ff1aa9097731505f51.pdf
+  title: The Accuracy, Robustness, and Readability of LLM-Generated Sustainability-Related
+    Word Definitions

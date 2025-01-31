@@ -1,0 +1,24 @@
+book_title: Proceedings of the 1st Workshop on Ecology, Environment, and Natural Language Processing
+event_name: 1st Workshop on Ecology, Environment, and Natural Language Processing
+volume_name: main
+cover_subtitle: Proceedings of NLP4Ecology
+anthology_venue_id: SIGDIAL
+start_date: 2025-03-02
+end_date: 2025-03-02
+isbn: XXX-1-952148-02-6
+location: Tallinn, Estonia
+editors:
+  - first_name: Valerio
+    last_name: Basile
+  - first_name: Cristina
+    last_name: Bosco
+  - first_name: Francesca
+    last_name: Grasso
+  - first_name: Muhammad Okky
+    last_name: Ibrohim
+  - first_name: Maria
+    last_name: Skeppstedt
+  - first_name: Manfred
+    last_name: Stede
+publisher: Association for Computational Linguistics
+watermark_book_title: Proceedings of the 1st Workshop on Ecology, Environment, and Natural Language Processing

@@ -1,0 +1,21 @@
+- members:
+  - first_name: Valerio
+    institution: University of Turin, Italy
+    last_name: Basile
+  - first_name: Cristina
+    institution: University of Turin, Italy
+    last_name: Bosco
+  - first_name: Francesca
+    institution: University of Turin, Italy
+    last_name: Grasso
+  - first_name: Muhammad Okky
+    institution: University of Turin, Italy
+    last_name: Ibrohim
+  - first_name: Maria
+    institution: Uppsala University, Sweden
+    last_name: Skeppstedt
+  - first_name: Manfred
+    institution: Potsdam University, Germany
+    last_name: Stede
+  role: Chair
+
