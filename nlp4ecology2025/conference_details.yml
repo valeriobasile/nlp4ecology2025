@@ -1,7 +1,7 @@
-book_title: Proceedings of the 1st Workshop on Ecology, Environment, and Natural Language Processing
+book_title: Proceedings of the 1st Workshop on Ecology, Environment, and Natural Language Processing (NLP4Ecology 2025)
 event_name: 1st Workshop on Ecology, Environment, and Natural Language Processing
 volume_name: main
-cover_subtitle: Proceedings of NLP4Ecology
+cover_subtitle: Proceedings of NLP4Ecology2025
 anthology_venue_id: SIGDIAL
 start_date: 2025-03-02
 end_date: 2025-03-02
@@ -21,4 +21,4 @@ editors:
   - first_name: Manfred
     last_name: Stede
 publisher: Association for Computational Linguistics
-watermark_book_title: Proceedings of the 1st Workshop on Ecology, Environment, and Natural Language Processing
+watermark_book_title: Proceedings of the 1st Workshop on Ecology, Environment, and Natural Language Processing (NLP4Ecology2025)
