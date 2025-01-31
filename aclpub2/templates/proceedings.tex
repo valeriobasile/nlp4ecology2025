@@ -421,8 +421,10 @@ ISBN \VAR{conference.isbn}
 
       \BLOCK{if entry.type is equalto("paper")}
         \BLOCK{set paper = id_to_paper[entry.paper.id]}
-        & \hyperlink{page.\VAR{paper.start_page}}{\emph{\VAR{paper.title}}}\\
-        & \VAR{join_names(", ", paper.authors, " and ")}\\\\
+%%% VALERIO: removed these lines because they cause a Python error
+%%% CHECK THIS!!! 
+%        & \hyperlink{page.\VAR{paper.start_page}}%{\emph{\VAR{paper.title}}}\\
+%        & \VAR{join_names(", ", paper.authors, " and ")}\\\\
       \BLOCK{endif}
     \BLOCK{endfor}
     \end{tabular}
