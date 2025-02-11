@@ -40,46 +40,6 @@
   pdf_file: 3012650fbe9378372813db22d68dc6f8a8152dbf.pdf
   title: 'From Data to Grassroots Initiatives: Leveraging Transformer-Based Models
     for Detecting Green Practices in Social Media'
-- abstract: Rapid advances in natural language processing have led to the development
-    of large language models (LLMs), which are based on the Transformer architecture.
-    These models have grown significantly in size, and their increasing demand for
-    computational resources has raised concerns about their environmental impact.
-    The substantial carbon footprint and the water footprint during training and inference  contribute
-    to global warming, highlighting the need for more energy-efficient approaches.
-    Our study attempts to address these challenges by compressing the size of LLMs.
-    Our approach lies in reducing the dimensionality of the model parameter space
-    using a well-known dimensionality reduction technique such as Singular Value Decomposition
-    and Autoencoders. Specifically, we apply these dimension reduction techniques
-    to the large weight matrices of LLMs. We target these matrices as they contain
-    parameters, encoding knowledge learnt by the LLMs. Thus, we reduce the LLMs' size,
-    which should positively impact its size, speed, resource-consumption, and overall,
-    its carbon footprint. In this paper, we present our initial results on Llama-2
-    with 7 billion parameters.
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: nlmakenne@uliege.be
-    first_name: Nelie
-    institution: University of Liège
-    last_name: Makenne
-    middle_name: Laura
-    name: Nelie Laura MAKENNE
-    username: ~Nelie_Laura_MAKENNE1
-  - dblp_id: https://dblp.org/pid/36/7726
-    emails: ashwin.ittoo@uliege.be
-    first_name: Ashwin
-    institution: University of Liege
-    last_name: Ittoo
-    name: Ashwin Ittoo
-    username: ~Ashwin_Ittoo1
-  decision: Researchcommunication
-  file: 4.pdf
-  id: 4
-  openreview_id: iabOEFTyf1
-  pdf_file: c84b78c9a075fa519a86db9ee915cb15973e8c0c.pdf
-  title: Towards Green Small Language Models
 - abstract: This paper explores how forests and forest industry are perceived on the
     largest online discussion forum in Finland, Suomi24 ('Finland24'). Using 30,636
     posts published in 2014–2020, we investigate what kind of topics and perspectives
@@ -514,50 +474,6 @@
   openreview_id: hCUIyfYWZh
   pdf_file: 252506c8001d6a51d4cbd48b4bacd78d07accc92.pdf
   title: Towards Addressing Anthropocentric Bias in Large Language Models
-- abstract: 'The H4rmony Project addresses the urgent need to integrate ethical AI
-    principles with ecological awareness, bridging the gap between anthropocentric
-    ethics and ecocentric values. Large language models (LLMs) are central to generative
-    AI, forming the backbone of text generation and enabling multimodal systems that
-    integrate text with other media, such as images, and extend further into agentic
-    AI and robotics. Their pervasive influence underscores the importance of aligning
-    LLMs with an ecosophy—a philosophy of ecological harmony and sustainability. H4rmony
-    introduces the transformative fourth H: Harmony with nature, extending traditional
-    AI ethics (Honesty, Harmlessness, and Helpfulness) to embed ecological values.
-    Notably, this paper itself has been co-developed with Theophrastus, a H4rmony-enhanced
-    AI assistant designed to embody ecolinguistic principles, exemplifying the project’s
-    potential to generate tools that assimilate its vision. By integrating ecolinguistic
-    principles into Generative AI, the H4rmony Project aims to redefine AI’s role
-    in fostering sustainability, ecological consciousness, and positive environmental
-    narratives. This paper presents the project’s strategic goals, methodologies,
-    and proof-of-concept implementations, showcasing its potential to reshape AI as
-    a tool for ecological advocacy.'
-  attributes:
-    paper_type: N/A
-    presentation_type: N/A
-    submitted_area: ''
-  authors:
-  - emails: airesearch@neovalle.co.uk
-    first_name: Jorge
-    google_scholar_id: https://scholar.google.com/citations?user=oJnSEqoAAAAJ&hl=en&oi=ao
-    homepage: https://TheH4rmonyProject.org
-    institution: Neovalle Ltd
-    last_name: Vallego
-    name: Jorge Vallego
-    orcid: https://orcid.org/0009-0001-5109-9392
-    username: ~Jorge_Vallego1
-  - emails: u2403489@uel.ac.uk
-    first_name: Eleanor
-    homepage: https://linktr.ee/eleanortiernan
-    institution: University of East London
-    last_name: Tiernan
-    name: Eleanor Tiernan
-    username: ~Eleanor_Tiernan1
-  decision: Researchcommunication
-  file: 19.pdf
-  id: 19
-  openreview_id: 1p4G7Lyz8F
-  pdf_file: 54b3628c9a5248928417eda67230ba84666d0821.pdf
-  title: 'The H4rmony Project: An Ecolinguistics Approach for Generative AI'
 - abstract: This study explores strategies for efficiently classifying scientific
     full texts using both small, BERT-based models and local large language models
     like Llama-3.1 8B. We focus on developing methods for selecting subsets of input
