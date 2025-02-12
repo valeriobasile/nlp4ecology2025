@@ -69,10 +69,10 @@
     name: Attila Krizsán
     username: ~Attila_Krizsán1
   - emails: srkbos@utu.fi
-    first_name: srkbos@utu.fi
-    institution: NA
-    last_name: srkbos@utu.fi
-    name: srkbos@utu.fi
+    first_name: Salla-Riikka
+    institution: University of Turku
+    last_name: Kuusalu
+    name: Salla-Riikka Kuusalu
     username: srkbos@utu.fi
   - emails: veronika.laippala@utu.fi
     first_name: Veronika
@@ -110,10 +110,10 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/Jennifer-D'Souza/73596405
     username: ~Jennifer_D'Souza1
   - emails: zachary.laubach@colorado.edu
-    first_name: zachary.laubach@colorado.edu
-    institution: NA
-    last_name: zachary.laubach@colorado.edu
-    name: zachary.laubach@colorado.edu
+    first_name: Zachary Laubach
+    institution: University of Colorado Boulder
+    last_name: Laubach
+    name: Zachary Laubach
     username: zachary.laubach@colorado.edu
   - emails: tarek.almustafa@uni-jena.de
     first_name: Tarek
@@ -135,16 +135,16 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/Sina-Zarrie%C3%9F/1721364
     username: ~Sina_Zarrieß1
   - emails: robert.fruehstueckl@uni-bielefeld.de
-    first_name: robert.fruehstueckl@uni-bielefeld.de
-    institution: NA
-    last_name: robert.fruehstueckl@uni-bielefeld.de
-    name: robert.fruehstueckl@uni-bielefeld.de
+    first_name: Robert
+    institution: Bielefeld University
+    last_name: Frühstückl
+    name: Robert Frühstückl
     username: robert.fruehstueckl@uni-bielefeld.de
   - emails: phyllis.illari@ucl.ac.uk
-    first_name: phyllis.illari@ucl.ac.uk
-    institution: NA
-    last_name: phyllis.illari@ucl.ac.uk
-    name: phyllis.illari@ucl.ac.uk
+    first_name: Phyllis Illari
+    institution: University College London
+    last_name: Illari
+    name: Phyllis Illari
     username: phyllis.illari@ucl.ac.uk
   decision: short
   file: 6.pdf
@@ -333,10 +333,10 @@
     orcid: https://orcid.org/0009-0008-7070-8705
     username: ~Tobias_Perschl1
   - emails: malte.rehbein@uni-passau.de
-    first_name: malte.rehbein@uni-passau.de
-    institution: NA
-    last_name: malte.rehbein@uni-passau.de
-    name: malte.rehbein@uni-passau.de
+    first_name: Malte
+    institution: University of Passau
+    last_name: Rehbein
+    name: Malte Rehbein
     username: malte.rehbein@uni-passau.de
   decision: long
   file: 13.pdf
@@ -362,6 +362,7 @@
   authors:
   - emails: christina.barz@stud.h-da.de
     first_name: Christina
+    institution: Darmstadt University of Applied Sciences
     last_name: Barz
     name: Christina Barz
     orcid: https://orcid.org/0009-0005-7309-0515
@@ -377,10 +378,10 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/Melanie-Siegel/40449690
     username: ~Melanie_Siegel1
   - emails: daniel.hanss@h-da.de
-    first_name: daniel.hanss@h-da.de
-    institution: NA
-    last_name: daniel.hanss@h-da.de
-    name: daniel.hanss@h-da.de
+    first_name: Daniel
+    institution: Darmstadt University of Applied Sciences
+    last_name: Hanss
+    name: Daniel Hanss
     username: daniel.hanss@h-da.de
   decision: long
   file: 15.pdf
@@ -406,15 +407,16 @@
   authors:
   - emails: arianna.longo401@edu.unito.it
     first_name: Arianna
+    institution: Università di Torino
     last_name: Longo
     name: Arianna Longo
     orcid: https://orcid.org/0009-0005-8500-1946
     username: ~Arianna_Longo1
   - emails: alessandrolongo1@protonmail.com
-    first_name: alessandrolongo1@protonmail.com
-    institution: NA
-    last_name: alessandrolongo1@protonmail.com
-    name: alessandrolongo1@protonmail.com
+    first_name: Alessandro Y.
+    institution: CNRS
+    last_name: Longo
+    name: Alessandro Y. Longo
     username: alessandrolongo1@protonmail.com
   decision: short
   file: 17.pdf

@@ -2,7 +2,7 @@ book_title: Proceedings of the 1st Workshop on Ecology, Environment, and Natural
 event_name: 1st Workshop on Ecology, Environment, and Natural Language Processing
 volume_name: main
 cover_subtitle: Proceedings of NLP4Ecology2025
-anthology_venue_id: SIGDIAL
+anthology_venue_id: NLP4Ecology
 start_date: 2025-03-02
 end_date: 2025-03-02
 isbn: 978-9908-53-114-4
@@ -20,5 +20,5 @@ editors:
     last_name: Skeppstedt
   - first_name: Manfred
     last_name: Stede
-publisher: Association for Computational Linguistics
+publisher: University of Tartu Library
 watermark_book_title: Proceedings of the 1st Workshop on Ecology, Environment, and Natural Language Processing (NLP4Ecology2025)

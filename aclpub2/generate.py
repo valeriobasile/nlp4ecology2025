@@ -1,3 +1,6 @@
+import sys
+sys.path.append("/Users/okkyibrohim/github-okky/nlp4ecology2025")
+
 from collections import defaultdict
 from pathlib import Path
 from PyPDF2 import PdfFileReader
